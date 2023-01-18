@@ -450,6 +450,12 @@
             text-align: center;
             text-transform: uppercase;
             font-size: 35px;
+            &--desktop{
+                display: block;
+            }
+            &--mobile{
+                display: none;
+            }
         }
         &__ctn{
             display: flex;
@@ -588,6 +594,14 @@
             &__single{
                 width: 80%;
             }
+            &__title{
+                &--desktop{
+                    display: none;
+                }
+                &--mobile{
+                    display: block;
+                }
+            }
         }
         
     }
@@ -598,6 +612,7 @@
         .es-kv{
             &__title{
                 font-size: 25px;
+                
             }
         }
         .es-cross{
@@ -622,6 +637,17 @@
             }
             &__link{
                 font-size: 16px;
+            }
+        }
+        .es-obligations{
+            &__title{
+                font-size: 30px;
+                &--desktop{
+                    display: none;
+                }
+                &--mobile{
+                    display: block;
+                }
             }
         }
     }

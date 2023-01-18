@@ -462,6 +462,12 @@
   text-transform: uppercase;
   font-size: 35px;
 }
+#es-loreal.es-loreal .es-obligations__title--desktop {
+  display: block;
+}
+#es-loreal.es-loreal .es-obligations__title--mobile {
+  display: none;
+}
 #es-loreal.es-loreal .es-obligations__ctn {
   display: flex;
   flex-wrap: wrap;
@@ -582,6 +588,12 @@
   #es-loreal.es-loreal .es-obligations__single {
     width: 80%;
   }
+  #es-loreal.es-loreal .es-obligations__title--desktop {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-obligations__title--mobile {
+    display: block;
+  }
 }
 @media screen and (max-width: 400px) {
   #es-loreal.es-loreal .es-kv__title {
@@ -610,5 +622,14 @@
   }
   #es-loreal.es-loreal .es-cross__link {
     font-size: 16px;
+  }
+  #es-loreal.es-loreal .es-obligations__title {
+    font-size: 30px;
+  }
+  #es-loreal.es-loreal .es-obligations__title--desktop {
+    display: none;
+  }
+  #es-loreal.es-loreal .es-obligations__title--mobile {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

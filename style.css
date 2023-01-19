@@ -571,23 +571,24 @@
 @media screen and (max-width: 600px) {
   #es-loreal.es-loreal .es-kv__brand {
     width: 200px;
-    left: 15%;
+    position: static;
+    margin: 0 auto;
   }
   #es-loreal.es-loreal .es-kv__content {
-    margin-top: -50px;
+    margin-top: -20px;
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
   }
   #es-loreal.es-loreal .es-kv__title {
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    text-align: right;
   }
   #es-loreal.es-loreal .es-kv__claim {
     text-align: center;
   }
   #es-loreal.es-loreal .es-kv__packshot img {
-    width: 90px;
+    width: 80px;
   }
   #es-loreal.es-loreal .es-use__content {
     max-width: 100%;
@@ -604,7 +605,7 @@
 }
 @media screen and (max-width: 400px) {
   #es-loreal.es-loreal .es-kv__title {
-    font-size: 20px;
+    font-size: 17px;
   }
   #es-loreal.es-loreal .es-cross {
     background-image: none;

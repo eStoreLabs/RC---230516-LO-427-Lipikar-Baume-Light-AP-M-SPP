@@ -572,23 +572,25 @@
         .es-kv{
             &__brand{
                 width: 200px;
-                left: 15%;
+                position: static;
+                margin: 0 auto;
+                
             }
             &__content{
-                margin-top: -50px;
+                margin-top: -20px;
                 width: min-content;
                 
             }
             &__title{
-                font-size: 20px;
-                text-align: center;
+                font-size: 16px;
+                text-align: right;
             }
             &__claim{
                 text-align: center;
             }
             &__packshot{
                 img{
-                    width: 90px;
+                    width: 80px;
                 }
             }
         }
@@ -618,7 +620,7 @@
     #es-loreal.es-loreal{
         .es-kv{
             &__title{
-                font-size: 20px;
+                font-size: 17px;
                 
             }
         }

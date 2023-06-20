@@ -1,18 +1,20 @@
-/* Locator Web Light */
+/* Locator Light */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("/3337875803786/fonts/LocatorWebLight/LocatorWebLight.eot");
-  src: url("/3337875803786/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  font-family: "Locator Light";
+  src:  url("https://estorelabs.github.io/es-hosting/fonts/Locator/LocatorLight.woff2") format("woff2"),
+        url("https://estorelabs.github.io/es-hosting/fonts/Locator/LocatorLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 /* Locator Web Medium */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("/3337875803786/fonts/LocatorWebMedium/LocatorWebMedium.eot");
-  src: url("/3337875803786/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  font-family: "Locator Medium";
+  src:  url("https://estorelabs.github.io/es-hosting/fonts/Locator/LocatorMedium.woff2") format("woff2"), 
+        url("https://estorelabs.github.io/es-hosting/fonts/Locator/LocatorMedium.woff") format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @-webkit-keyframes slidedown {
   from {
@@ -79,7 +81,8 @@
 }
 
 #es-loreal.es-loreal {
-  font-family: "LocatorWeb", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Locator Light", Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Locator Light";
   font-size: 18px;
   font-weight: 200;
   line-height: 1.2;

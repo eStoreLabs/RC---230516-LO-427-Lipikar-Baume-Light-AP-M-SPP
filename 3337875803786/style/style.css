@@ -80,6 +80,10 @@
   max-width: 100%;
 }
 
+#es-loreal.es-loreal strong {
+  font-family: "Locator Medium";
+}
+
 #es-loreal.es-loreal {
   /* font-family: "Locator Light", Tahoma, Geneva, Verdana, sans-serif; */
   font-family: "Locator Light";
@@ -145,11 +149,11 @@
 #es-loreal.es-loreal .es-kv__logo {
   -webkit-animation: slideleft 0.6s ease forwards;
           animation: slideleft 0.6s ease forwards;
-  max-width: 230px;
+  max-width: 180px;
 }
 #es-loreal.es-loreal .es-kv__claim {
-  font-size: 14px;
-  margin-top: 15px;
+  font-size: 8px;
+  /* margin-top: 15px; */
 }
 #es-loreal.es-loreal .es-kv__claim--logo {
   font-size: 10px;
@@ -171,7 +175,7 @@
   margin-bottom: 10px;
 }
 #es-loreal.es-loreal .es-effects__subtitle {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
@@ -189,7 +193,7 @@
   justify-content: flex-start;
   align-items: center;
   width: 150px;
-  height: 150px;
+  /* height: 150px; */
   margin: 5px 10px;
 }
 #es-loreal.es-loreal .es-effects__single img {
@@ -198,8 +202,8 @@
 #es-loreal.es-loreal .es-effects__text {
   text-align: center;
   font-size: 14px;
-  font-weight: bolder;
   text-transform: uppercase;
+  font-family: "Locator Medium";
 }
 #es-loreal.es-loreal .es-results {
   padding: 30px 50px;
@@ -239,7 +243,8 @@
   margin: 5px 10px;
 }
 #es-loreal.es-loreal .es-results__percent {
-  font-weight: bold;
+  /* font-weight: bold; */
+  font-family: "Locator Medium";
   margin-bottom: 5px;
   font-size: 40px;
 }
@@ -267,7 +272,8 @@
 #es-loreal.es-loreal .es-ingr__title {
   text-align: center;
   text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Locator Medium";
+  /* font-weight: bold; */
   font-size: 30px;
   margin-bottom: 0;
 }
@@ -290,7 +296,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 130px;
-  min-height: 260px;
+  min-height: 240px;
   margin: 5px 3px;
   position: relative;
 }
@@ -343,17 +349,25 @@
   background-position: right;
 }
 #es-loreal.es-loreal .es-use__content {
-  max-width: 50%;
+  max-width: 49%;
   color: #fff;
   padding: 20px;
 }
 #es-loreal.es-loreal .es-use__title {
   text-transform: uppercase;
+  font-family: "Locator Medium";
   font-size: 25px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 0 35px;
 }
-#es-loreal.es-loreal .es-use ol {
+
+#es-loreal.es-loreal .es-use__list li::marker {
+font-family: "Locator Medium";
+}
+#es-loreal.es-loreal .es-use__list li {
+  margin-bottom: 10px;
+}
+/* #es-loreal.es-loreal .es-use ol {
   counter-reset: counter;
 }
 #es-loreal.es-loreal .es-use li {
@@ -363,11 +377,11 @@
 }
 #es-loreal.es-loreal .es-use li::before {
   content: counter(counter) ".";
-  font-weight: normal;
+  font-family: "Locator Medium";
   font-size: 16px;
   margin-right: 8px;
   line-height: 1;
-}
+} */
 #es-loreal.es-loreal .es-cross {
   margin: 50px 0;
   background-image: url(/3337875803786/images/cross-bg.png);
@@ -435,7 +449,8 @@
 }
 #es-loreal.es-loreal .es-cross__number {
   color: #009de5;
-  font-weight: bold;
+  font-family: "Locator Medium";
+  /* font-weight: bold; */
   font-size: 150px;
   margin: 0;
   padding: 0;
@@ -444,7 +459,10 @@
   font-size: 16px;
 }
 #es-loreal.es-loreal .es-cross__link {
-  padding: 5px 10px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  width: 150px;
   background-color: #009de5;
   color: #fff;
   text-decoration: none;
@@ -506,10 +524,10 @@
   text-transform: uppercase;
   text-shadow: 2px -1px 19px rgb(66, 68, 90);
   padding: 10px;
-  font-weight: normal;
+  font-family: "Locator Medium";
   line-height: 1;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 12px;
 }
 #es-loreal.es-loreal .es-footer {
   margin: 50px 0;
@@ -570,6 +588,7 @@
 @media screen and (max-width: 600px) {
   #es-loreal.es-loreal .es-kv {
     flex-direction: column;
+    align-content: center;
     padding: 10px;
   }
   #es-loreal.es-loreal .es-kv__brand {
@@ -594,7 +613,7 @@
     text-align: right;
   }
   #es-loreal.es-loreal .es-kv__claim {
-    text-align: center;
+    text-align: right;
   }
   #es-loreal.es-loreal .es-kv__packshot img {
     width: 70px;
@@ -636,7 +655,7 @@
   }
   #es-loreal.es-loreal .es-cross__single img {
     height: 250px;
-    margin: 10px;
+    margin: 5px;
   }
   #es-loreal.es-loreal .es-cross__number {
     font-size: 80px;

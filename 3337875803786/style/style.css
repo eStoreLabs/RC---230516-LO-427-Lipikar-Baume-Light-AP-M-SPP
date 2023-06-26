@@ -654,8 +654,8 @@ font-family: "Locator Medium";
     width: 100%;
   }
   #es-loreal.es-loreal .es-cross__single img {
-    height: 250px;
-    margin: 5px;
+    height: 230px;
+    margin-right: 10px;
   }
   #es-loreal.es-loreal .es-cross__number {
     font-size: 80px;
